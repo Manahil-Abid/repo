@@ -1,0 +1,97 @@
+.main-div{
+    display: flex;
+}
+
+.div-1{
+    width: 500px;
+    height: 100px;
+    background-color: burlywood;
+    border: 2px solid brown;
+    color: brown;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 200px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 40px;
+   padding-left: 30px;
+   border-radius: 20px;
+   transition: width 2s, height 4s; 
+}
+.div-1:hover{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(224, 143, 35);
+    border: 4px solid rgb(211, 145, 145);
+    color: brown;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 40px;
+   padding-left: 30px;
+   border-radius: 20px;
+   box-shadow: 5px 10px 20px rgb(226, 130, 162);
+}
+
+.div-2{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border: 2px solid brown;
+    color: brown;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 200px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 40px;
+   padding-left: 30px;
+   border-radius: 20px;
+   transition: width 2.5s, height 5s;
+}
+.div-2:hover{
+    width: 350px;
+    height: 150px;
+    background-color: rgb(224, 143, 35);
+    border: 4px solid rgb(211, 145, 145);
+    color: brown;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 40px;
+   padding-left: 30px;
+   border-radius: 20px;
+   box-shadow: 5px 10px 20px rgb(226, 130, 162);
+   transform:skew(40px);
+}
+
+.div-3{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border: 2px solid brown;
+    color: brown;
+  margin-top: 200px;
+  transition-property: font-size, width,height,padding,border,border-radius,transform;
+  transition-duration: 2s;
+  margin-left: 200px;
+  padding-top: 25px;
+  padding-left: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+.div-3:hover {
+    font-size: 100px;
+    width:500px;
+    height:500px;
+    padding:10px;
+    border:20px solid brown;
+    border-radius:40px;
+    transform: rotate(360deg);
+    box-shadow: 5px 10px 20px rgb(226, 130, 162);
+  
+  }

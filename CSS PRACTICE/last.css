@@ -1,0 +1,107 @@
+.container{
+    margin-left: 6.9vw;
+}
+
+.item1{
+   background-color: burlywood;
+   padding: 2rem;
+   width: 80vw;
+   height: 85vh;
+   border-radius: 5rem;
+   animation-name:bgcolor;
+   animation-duration: 7s;
+   animation-iteration-count: 5;
+}
+@keyframes bgcolor{
+  0%{
+    color: rgb(0, 38, 255);
+    background-color: rgb(241, 98, 98);
+    border-radius: 2rem;
+  }
+  10%{
+    background-color: rgb(180, 108, 13);
+  }
+  20%{
+    background-color: blueviolet;
+  }
+  30%{
+    background-color: sienna;
+    border-radius: 3rem;
+  }
+  40%{
+    background-color: greenyellow;
+    color: rgb(21, 12, 29);
+  }
+  50%{
+    background-color: rgb(251, 255, 0);
+    color: rgb(31, 31, 16);
+    border-radius: 4rem;
+  }
+  60%{
+    background-color: peru;
+  }
+  70%{
+    background-color: palevioletred;
+    border-radius: 5rem;
+  }
+  80%{
+    background-color: brown;
+  }
+  90%{
+    background-color: green;
+    border-radius: 6rem;
+  }
+  100%{
+    background-color: black;
+    color: beige;
+  }
+}
+.mainheading{
+    text-align: center;
+    font-size: 2vw;
+}
+.mufasa{
+   width: 23vw;
+   margin-left: 28vw;
+   border: 0.5rem solid brown;
+   border-radius: 50%;
+   animation-name: mufasa;
+   animation-duration: 7s;
+   animation-iteration-count: 5;
+
+}
+@keyframes mufasa{
+    0%{
+        border-radius: 0%;
+    }
+    10%{
+        border-radius: 10%;
+    }
+    20%{
+        border-radius: 20%;
+    }
+    30%{
+        border-radius: 30%;
+    }
+    40%{
+        border-radius: 40%;
+    }
+    50%{
+        border-radius: 50%;
+    }
+    60%{
+        border-radius: 60%;
+    }
+    70%{
+        border-radius: 70%;
+    }
+    80%{
+        border-radius: 80%;
+    }
+    90%{
+        border-radius: 90%;
+    }
+    100%{
+        border-radius: 100%;
+    }
+}

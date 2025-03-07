@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(139, 213, 243);
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.mainheading{
+    color: rgb(238, 175, 175);
+    background-color: brown;
+    text-align: center;
+    border-radius: 3rem;
+    padding: 2em;
+    font-size: 2.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.5em solid rgb(238, 175, 175);
+}
+
+.Box1{
+ background-color: blue;
+ color:rgb(164, 164, 240) ;
+ border: 0.5em solid rgb(175, 45, 226);
+ border-radius: 2rem;
+ text-align: center;
+ padding: 2em;
+}
+
+.Box2{
+    background-color: rgb(175, 45, 226);
+    color: rgb(210, 142, 236);
+    border: 0.5em solid blue;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2em;
+}
+img{
+   margin-left: 40em;
+   border: 0.5em solid rgba(255, 217, 0, 0.384);
+   border-radius: 2em;   
+}
+
+.box1{
+    background-color: blue;
+    color:rgb(164, 164, 240) ;
+    border: 0.5em solid rgb(175, 45, 226);
+    border-radius: 2rem;
+    text-align: center;
+}
+.box2{
+    background-color: rgb(175, 45, 226);
+    color: rgb(210, 142, 236);
+    border: 0.5em solid blue;
+    border-radius: 2rem;
+    text-align: center;
+    display: none;
+}
+.box3{
+    background-color: blue;
+    color:rgb(164, 164, 240) ;
+    border: 0.5em solid rgb(175, 45, 226);
+    border-radius: 2rem;
+    text-align: center;
+    display: none;
+}
+.box4{
+    background-color: rgb(175, 45, 226);
+    color: rgb(210, 142, 236);
+    border: 0.5em solid blue;
+    border-radius: 2rem;
+    text-align: center;
+    display: none;
+}
+
+@media screen and (orientation:landscape){
+    .container{
+    display: flex;
+    gap: 2em;
+    }
+}
+@media screen and (max-width: 425px){
+   .box1{
+     display: none;
+   }
+   .box3{
+    display: none;
+   }
+   .box4{
+    display: block;
+   }
+ 
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+    .box1{
+        display: none;
+    }
+    .box4{
+    display: none;
+    }
+    .box3{
+        display: block;
+    }
+    }
+
+    @media screen and (min-width:769px) and (max-width:1024px){
+        .box1{
+            display: none;
+        }
+        .box3{
+            display: none;
+        }
+        .box4{
+            display: none;
+        }
+        .box2{
+            display: block;
+        }
+    }

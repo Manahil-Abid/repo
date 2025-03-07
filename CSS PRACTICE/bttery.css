@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+
+.battery{
+    margin-left: 750px;
+    border: 5px solid white;
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.percentage{
+    animation-name:battery;
+    animation-duration: 8s;
+    width: 350px;
+    height: 100px;
+    
+}
+
+@keyframes battery{
+    0%{
+        background-color: red;
+        width: 50px;
+    }
+    25%{
+        background-color: orange;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: greenyellow;
+    }
+    100%{
+        background-color: green;
+    }
+}
